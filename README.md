@@ -15,6 +15,7 @@ to do that.
  * `mvn package`     compile and run tests
  * `cdk ls`          list all stacks in the app
  * `cdk synth`       emits the synthesized CloudFormation template
+ *  `cdk synth -Djavax.net.ssl.trustStore=c:\dev-resources\java\key-certs\keystore.jks
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk docs`        open CDK documentation
